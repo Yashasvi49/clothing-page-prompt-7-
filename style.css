@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #badce6;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    color: #20201e;
+}
+nav {
+    height: 6%;
+    width: 100%;
+    /* background-color: blue; */
+   display: flex;
+   justify-content: space-between;
+   top: 0;
+   align-items: center;
+   
+}
+nav >ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 250;
+    
+
+}
+nav h1 {
+    font-weight: 100;
+
+}
+.page1 img {
+    height: 170%;
+    width: 50%;
+    position: absolute;
+    top: -5%;
+    right: 15.3%;
+    /* margin-top: 0%; */
+    /* rotate: -20deg; */
+    /* position: relative; */
+    z-index: 99;
+}
+.page1 > h1 {
+    display:inline-block;
+    height: 20%;
+    font-size: 100px;
+    /* background-color:aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: 
+    #20201e;
+  z-index: 1000;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.page1 > h1 span {
+  color: transparent;
+  -webkit-text-stroke: 2px #191919;
+  margin: 0px 20px;
+  letter-spacing: 10px;
+}
+.page1 > h1 span .u {
+  color: transparent;
+  -webkit-text-stroke: 2px transparent;
+  
+}
+.midsection {
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+z-index: 96;
+margin-top: 6%;
+}
+.midsection > .circle {
+height: 165px;
+width: 165px;
+border-radius: 50%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-left: 11%;
+margin-top: 7%;
+}
+.detail {
+    height: 100%;
+    width: 25%;
+    /* background-color: bisque; */
+}
+.detail .top {
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+}
+.detail .top .choose {
+    margin-top: 3%;
+  
+}
+.detail .top .choose >a {
+color: #20201e;
+font-weight: bolder;
+
+}
+.detail .bottom {
+    /* background-color: #badce6; */
+    display: flex;
+  
+} 
+.detail .top p {
+    width: 100%;
+font-size: 17px;
+letter-spacing: 1px;
+}
+.bottom {
+    position: absolute;
+    bottom: 5%;
+    gap: 30px;
+}
