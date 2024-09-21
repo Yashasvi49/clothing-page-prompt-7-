@@ -18,7 +18,18 @@ html, body {
     flex-direction: column;
     z-index: 1;
     color: #20201e;
+  /* font-family: "Montserrat", system-ui; */
+  font-family: 'Rowan Free Demo';
+  
 }
+@font-face {
+    font-family: 'Rowan Free Demo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rowan Free Demo');
+    }
+
+
 nav {
     height: 6%;
     width: 100%;
@@ -27,6 +38,7 @@ nav {
    justify-content: space-between;
    top: 0;
    align-items: center;
+   z-index: 999;
    
 }
 nav >ul {
@@ -35,29 +47,29 @@ nav >ul {
     list-style: none;
     gap: 20px;
     font-size: 22px;
-    font-weight: 250;
+    font-weight: 600;
     
 
 }
 nav h1 {
-    font-weight: 100;
+    font-weight: 600;
 
 }
 .page1 img {
     height: 170%;
-    width: 50%;
+    width: 49%;
     position: absolute;
-    top: -5%;
-    right: 15.3%;
+    top: -7%;
+    right: 14%;
     /* margin-top: 0%; */
-    /* rotate: -20deg; */
+    rotate: -5deg;
     /* position: relative; */
     z-index: 99;
 }
 .page1 > h1 {
     display:inline-block;
-    height: 20%;
-    font-size: 135px;
+    height: 33%;
+    font-size: 160px;
     /* background-color:aqua; */
     display: flex;
     justify-content: center;
@@ -66,20 +78,22 @@ nav h1 {
     #20201e;
   z-index: 1000;
   margin-top: 50px;
-  letter-spacing: 5px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  gap: 18px;
-
+  letter-spacing: 3px;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family: "Montserrat", system-ui; */
+  gap: 20px;
+  font-weight: 900;
 }
 .page1 > h1 span {
   color: transparent;
-  -webkit-text-stroke: 2px #191919;
-  margin: 0px 20px;
-  letter-spacing: 5px;
+  -webkit-text-stroke: 0.1px #1c1c1c;
+  letter-spacing: 10px;
+
 }
 .page1 > h1 span .u {
   color: transparent;
-  -webkit-text-stroke: 2px transparent;
+  -webkit-text-stroke: 1px transparent;
+  margin: 0px 20px;
   
 }
 .midsection {
@@ -91,11 +105,11 @@ nav h1 {
     align-items: center;
     position: relative;
     z-index: 96;
-    margin-top: 4%;
+    /* margin-top: 1%; */
 }
 .midsection > .circle {
-height: 165px;
-width: 165px;
+height: 150px;
+width: 150px;
 border-radius: 50%;
 /* background-color: red; */
 display: flex;
@@ -103,7 +117,7 @@ justify-content: center;
 align-items: center;
 border: 2px solid black;
 margin-left: 16%;
-margin-top: 8%;
+margin-top: 10%;
 }
 .detail {
     height: 100%;
